@@ -24,7 +24,7 @@ public class UserDaoTest {
 
 		dao.add(user);
 			
-		System.out.println(user.getId() + " 등록 성공");
+		System.out.println(user.getId() + " 등록 성공!!!");
 		
 		User user2 = dao.get(user.getId());
 		System.out.println(user2.getName());
